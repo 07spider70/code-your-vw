@@ -1,4 +1,181 @@
 site_name: Code your VW
-site_url: https://github.com/07spider70/code-your-vw/wiki
+site_url: https://07spider70.github.io/code-your-vw/
+site_author: 07spider70
+site_description: Code your VW is a collection of code snippets for Volkswagen cars.
+
+
+# Repository
+repo_name: 07spider70/code-your-vw
+repo_url: https://github.com/07spider70/code-your-vw
+
+# Copyright
+copyright: >
+  Copyright &copy; 2025 07spider70 -
+  <a href="#__consent">Change cookie settings</a>
+
+# Main directory
+docs_dir: docs/
+
 theme:
   name: material
+  custom_dir: overrides
+  language: en
+  font:
+    text: Roboto
+    code: Source Code Pro 
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/car-info
+    alternate: material/web
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+    
+    
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to system preference
+  
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - toc.integrate
+    - search.share
+    - announce.dismiss
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  alternate:
+    - name: English
+      link: ./
+      lang: en
+    - name: Slovenský
+      link: ./sk/
+      lang: sk
+  comments:
+    enable: true
+    # Can be disqus or giscus
+    type: giscus
+  consent:
+    title: Cookie consent
+    description: >- 
+
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+plugins:
+  - i18n:
+        enabled: true
+        docs_structure: folder
+        fallback_to_default: true
+        reconfigure_material: true
+        reconfigure_search: true
+        languages:
+          - locale: en
+            default: true
+            name: English
+          - locale: sk
+            name: Slovenský
+            default: false
+            build: true
+            link: /sk/
+  - social:
+      enabled: false
+  - tags:
+      enabled: true
+  - search:
+      enabled: true
+      lang:
+        - en
+        - sk
+  - privacy:
+      enabled: true
+  - git-revision-date-localized:
+        type: datetime
+        enable_creation_date: true
+        timezone: Europe/Bratislava
+    
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
