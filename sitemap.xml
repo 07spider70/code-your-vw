@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://github.com/07spider70/code-your-vw/wiki/</loc>
-         <lastmod>2025-01-18</lastmod>
+        <loc>https://07spider70.github.io/code-your-vw/</loc>
+        <lastmod>2025-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://07spider70.github.io/code-your-vw/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://07spider70.github.io/code-your-vw/sk/"/>
+    </url>
+    <url>
+        <loc>https://07spider70.github.io/code-your-vw/sk/</loc>
+        <lastmod>2025-01-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://07spider70.github.io/code-your-vw/sk/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://07spider70.github.io/code-your-vw/"/>
     </url>
 </urlset>
