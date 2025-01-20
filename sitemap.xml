@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://07spider70.github.io/code-your-vw/</loc>
-        <lastmod>2025-01-19</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://07spider70.github.io/code-your-vw/"/>
         <xhtml:link rel="alternate" hreflang="sk" href="https://07spider70.github.io/code-your-vw/sk/"/>
     </url>
     <url>
+        <loc>https://07spider70.github.io/code-your-vw/platforms/MQB/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://07spider70.github.io/code-your-vw/platforms/MQB/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://07spider70.github.io/code-your-vw/sk/platforms/MQB/"/>
+    </url>
+    <url>
         <loc>https://07spider70.github.io/code-your-vw/sk/</loc>
-        <lastmod>2025-01-19</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="sk" href="https://07spider70.github.io/code-your-vw/sk/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://07spider70.github.io/code-your-vw/"/>
+    </url>
+    <url>
+        <loc>https://07spider70.github.io/code-your-vw/sk/platforms/MQB/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://07spider70.github.io/code-your-vw/sk/platforms/MQB/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://07spider70.github.io/code-your-vw/platforms/MQB/"/>
     </url>
 </urlset>
