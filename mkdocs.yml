@@ -132,6 +132,10 @@ plugins:
             default: false
             build: true
             link: /sk/
+            site_name: Nakóduj svoj VW
+            nav_translations:
+              Home: "Domov"
+              Platforms: "Platformy"
   - social:
       enabled: false
   - tags:
@@ -186,6 +190,4 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Platforms:
-    - 'MQB': platforms/MQB/index.md
-    - 'MIB2': platforms/MQB/index.md
+  - MQB: platforms/MQB/index.md
