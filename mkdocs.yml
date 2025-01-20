@@ -9,8 +9,9 @@ repo_name: 07spider70/code-your-vw
 repo_url: https://github.com/07spider70/code-your-vw
 
 # Copyright
-copyright: >
-  Copyright &copy; 2025 07spider70 -
+copyright: >-
+
+  Copyright &copy; 2025 07spider70 <br>
   <a href="#__consent">Change cookie settings</a>
 
 # Main directory
@@ -86,6 +87,8 @@ theme:
     - content.tooltips
     - toc.integrate
     - search.share
+    - toc.follow
+    - navigation.prune
     - announce.dismiss
 
 extra_css:
@@ -94,11 +97,12 @@ extra_css:
 extra:
   alternate:
     - name: English
-      link: ./
+      link: /
       lang: en
     - name: Slovenský
-      link: ./sk/
+      link: /sk/
       lang: sk
+  generator: false
   comments:
     enable: true
     # Can be disqus or giscus
@@ -179,3 +183,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+nav:
+  - Home: index.md
+  - Platforms:
+    - 'MQB': platforms/MQB/index.md
+    - 'MIB2': platforms/MQB/index.md
