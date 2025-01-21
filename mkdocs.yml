@@ -139,6 +139,8 @@ plugins:
             nav_translations:
               Home: "Domov"
               Platforms: "Platformy"
+              Overview: "Prehľad"
+              Dashboard: "Prístrojová doska"
   - social:
       enabled: false
   - tags:
@@ -193,4 +195,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - MQB: platforms/MQB/index.md
+  - MQB:
+      - Overview: platforms/MQB/index.md 
+      - Dashboard: platforms/MQB/dashboard.md
