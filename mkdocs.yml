@@ -103,6 +103,9 @@ extra:
       link: /sk/
       lang: sk
   generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jan-remen-a54293222
   comments:
     enable: true
     # Can be disqus or giscus
